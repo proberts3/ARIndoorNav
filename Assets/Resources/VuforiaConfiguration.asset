@@ -8,12 +8,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AZ1xDpr/////AAAAmUxr+D0/AUtmot/+Bn6nS718Nb1Q0MMYAIR4yXuzHBvBdijpJpxMrmjKRE9ExSrafsqm6k8SQ229L1XRm7KsvMmDIcn82JxQ8ub2ksnS3+geXq621cdHi+IhVLsniZwvySABAnCJlO/Ks5QOQfc0O73217LPjC++5cJSFtAvksXLfOdifIkV+gk2Ht63UYGmpFsBKTy2yQKOVaiJRM+eB3eFMhF+NrKPd35TCmELUfPMuKtL5Niu+d+wIfILe8kcWD3yBdpn1mcwyRMpMuBm22oeAqWx7G72syGkLL8q/nnGR4Ex3UjV8crbhQWzPeP5xNcg/2Kttb9eWSEJ97uKldbVI6V4Ak/D3nPASxJBW32C
-    ufoLicenseKey: QVl0WVpzNy8vLy8vQUFBQUtCT29VTDNSODBXaWl1WnZxckJQVGNaV3FEaGVPOThmOGI3TVM2OW1HaTMxSm5vaDZ4OWoydTcxSGFrMkdZN3AwY3k2dDV3V2ZIbE1XcmdTOXlES0xMTEdJclVJc0V0WGl6bFluVy9JMndXaUNhODJtQ0x2bTVEYTJoWk1tQmd0ZXhJc2M2M1g3NGg2QnRscEU2ZDlSeFBjS0xyT1lMWXhpN0IwamN1N3FKQjVnU3I0ZmYxcTlRaVlOdmpXVkRYc090MjFjeE5YWEE1ZXRla0tvYmlQRngxb3ljZTFkcGtPRDVYYUFGeXdDdXNFVUErZHFJK1FDK1BEZVU0aHFPeDVqOXB3bW4zeG9XcWwyRHBiQkJuUGpNTjl4aGdTcU1BVmVGT0VVMGdiZVZ6QjlSL3VjTnduVTVTNmRuRlB5L3NlSHZOOVFtcVVWT1VRUmc3NUNlRVhINkpHVzN0cFYwazZPc2YydG1nR0lMblk=
+    vuforiaLicenseKey: AUfxYgX/////AAAAmVAAxU5FYUDNr/6o01xXpScBes0rdAIosb1WLA++JCqmJ8ELQiXMbKOJV5J59d2dIOGiXP/8cAkyDcVgU0Z8iMG2ithtyEJKSGN8wVBj1/G8JmxgmbeawaZAy8ScQJ/mLQsTi1i0Aj+DpTQslfEMF+BaAetvrGqJE5ZuTNovvBKBvKbBvuwcrY7FDCJJTz0rgNtR19iCR666AUy8VtyX3W6deafPNV/5nlvtXnWV5jOxJXWz6DaqrYyDbQcntiloJvO0HaS4rwQrR5fh7GzC+q6IB4TtgJYIgK/q3vMu//K8dahS9gTIgqWnst5R7jsq4FRnYg3WRRRG/CejDwu05uBriccpZ+Q5mwx5y8pNT15I
+    ufoLicenseKey: QVRhT3NVbi8vLy8vQUFBQUtCQ21hUVZNUGtic2xEb0JjUXV4cHNaWExZczhybmgxcWI0RG5LWGVUWEVUOFlDWkxzMkp0b0ZqVzhYTCttNGJ2My9GcS9pNUNsVVRxK3FNMm5TNllhVEhUdDZKU0RDZnN5T0dVOEtGQkRjeUVZQWRuQXdZL2c5S0pwa3ByTHhNKzF4UzlTUy9HS1hSRVVsRjRicWY2M2Y5TzhYN2p6MUFNb3UwSjNMaytLSGw1MEJBQWZsUTNZS2x3Y2creXRuR0hhRzJmWmNoRC90RnJNSDlQRSttY3ZsamN0TU1qNDVLQ2FNSzJ3bEpmcXBGd2QzanphdUNsSzM1ZFBteTc0d3dqNHBaS0dENUxPeFJONkpEcnpvUnphQXo4OGlMdnJrU3V1TXIwa21WaFFFOEk4YS9uUkFzUEkzcHZRV1lmd291TEZKL0RMNEhLNU4ycTNoeW4vNCttYUhxeVNyMVlPTFR0cTdJaFhNN2Q3UjA=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -44,9 +44,13 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
+    - VuforiaMars_Object_OT
+    - VuforiaMars_ModelTarget
     - VuforiaMars_Images
     - VuforiaMars_VuMark
     dataSetsToActivate:
+    - VuforiaMars_Object_OT
+    - VuforiaMars_ModelTarget
     - VuforiaMars_Images
     - VuforiaMars_VuMark
   videoBackground:
@@ -57,8 +61,8 @@ MonoBehaviour:
     matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 1
-    autoStartTracker: 1
+    autoInitTracker: 0
+    autoStartTracker: 0
     trackingMode: 0
     posePrediction: 0
     modelCorrectionMode: 0

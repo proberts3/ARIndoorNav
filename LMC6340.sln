@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMC6340", "LMC6340.csproj", "{45C15056-43B6-7073-A760-E1D4A8317AAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMC6340.Editor", "LMC6340.Editor.csproj", "{E5135E60-566B-1BE9-0AFA-CD53410F4DCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45C15056-43B6-7073-A760-E1D4A8317AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C15056-43B6-7073-A760-E1D4A8317AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C15056-43B6-7073-A760-E1D4A8317AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C15056-43B6-7073-A760-E1D4A8317AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5135E60-566B-1BE9-0AFA-CD53410F4DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5135E60-566B-1BE9-0AFA-CD53410F4DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5135E60-566B-1BE9-0AFA-CD53410F4DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5135E60-566B-1BE9-0AFA-CD53410F4DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
