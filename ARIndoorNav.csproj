@@ -302,6 +302,7 @@
   <ItemGroup>
     <Compile Include="Assets\AugmentedScript.cs" />
     <Compile Include="Assets\ClickOnSceneChange.cs" />
+    <Compile Include="Assets\Instantiate.cs" />
     <Compile Include="Assets\NoARPlease.cs" />
     <Compile Include="Assets\PlayerTouches.cs" />
     <Compile Include="Assets\SceneController.cs" />
